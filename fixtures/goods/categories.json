@@ -1,0 +1,58 @@
+[
+  {
+    "fields": {
+      "name": "all products",
+      "slug": "all"
+    },
+    "model": "goods.categories",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "name": "kitchen",
+      "slug": "kuhnya"
+    },
+    "model": "goods.categories",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "name": "bedroom",
+      "slug": "spalnya"
+    },
+    "model": "goods.categories",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "name": "living room",
+      "slug": "gostinnaya"
+    },
+    "model": "goods.categories",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "name": "office",
+      "slug": "ofis"
+    },
+    "model": "goods.categories",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "name": "Accessories",
+      "slug": "furnitura"
+    },
+    "model": "goods.categories",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "name": "Decor",
+      "slug": "dekor"
+    },
+    "model": "goods.categories",
+    "pk": 10
+  }
+]
