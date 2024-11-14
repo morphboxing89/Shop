@@ -1,0 +1,30 @@
+{%extends 'base.html'%}
+
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'deps/css/my_footer_css.css' %}">
+{% endblock css %}
+
+
+{% block content %}
+    <div class="pb-2 mt-5 bg-white custom-shadow rounded" >
+        <h2 class="m-2"><strong>{{ content }}</strong></h2>
+        <p class="m-2">{{ phone }}</p>
+        <p class="m-2">{{ address }}</p>
+        <p class="m-2">{{ email }}</p>
+        <p class="m-2">{{ time }}</p>
+    </div>
+    <div class="pt-3">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A13b048835a15df781f64eda9005db7c31f4e7cfc9a4afb0417c5414c42d0ad42&amp;width=1076&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+ {% endblock %}
+
+{% block footer%}
+        <footer class="py-4 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Home moRph 2024</p>
+        </div>
+    </footer>
+{% endblock %}
+
