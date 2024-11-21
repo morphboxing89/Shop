@@ -11,6 +11,7 @@ def tag_categories():
     return Categories.objects.all()
 
 
+#Чтобы пагинация работала с примененными фильтрами
 @register.simple_tag(takes_context=True)
 def change_params(context, **kwargs):
     query = context['request'].GET.dict()
