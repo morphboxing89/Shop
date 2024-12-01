@@ -1,8 +1,0 @@
-# created by virtualenv automatically
-venv/
-.pylintrc
-__pycache__/
-
-.idea
-
-db.sqlite3
